@@ -27,8 +27,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Logo and Contact */}
           <div className="space-y-8">
-            <div className="w-24 h-24 rounded-full bg-gradient-to-br from-green-400 via-blue-500 to-purple-600 flex items-center justify-center">
-              <span className="text-2xl font-bold">GOOMYE</span>
+            <div className="w-24 h-24 rounded-full flex items-center justify-center">
+              <img src="src\assets\goomye-logo.png" alt="" />
             </div>
             <div className="space-y-6">
               <h3 className="text-xl font-bold">Contact Us</h3>
